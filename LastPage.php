@@ -28,7 +28,6 @@ class LastPage extends Controller
                 Yii::$app->user->setReturnUrl(Yii::$app->session->get('user.url'));
             }
         }
-        ActiveAssets::register($this->getView());
         return $result;
     }
 }
