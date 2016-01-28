@@ -1,7 +1,7 @@
 {
 	"name": "keygenqt/yii2-last-page",
-	"description": "Widget from form image ajax load.",
-	"keywords": ["yii2", "extension", "widget", "jquery"],
+	"description": "LastPage lets you get last url.",
+	"keywords": ["yii2", "extension"],
 	"homepage": "https://github.com/keygenqt/yii2-last-page",
 	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
@@ -15,13 +15,12 @@
 		}
 	],
 	"require": {
-		"bower-asset/jquery-zclip": "*",
 		"yiisoft/yii2": "*",
 		"php": ">=5.4.0"
 	},
 	"autoload": {
 		"psr-4": {
-			"keygenqt\\zclipBtn\\": ""
+			"keygenqt\\lastPage\\": ""
 		}
 	}
 }
