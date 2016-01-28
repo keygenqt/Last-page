@@ -32,7 +32,7 @@ The latest version of the module is v0.5.0 `BETA`.
 All controllers or base controller:
 
 ```php
-use keygenqt/lastPage/LastPage
+use \keygenqt\lastPage\LastPage;
 
 class BaseController extends LastPage
 {
