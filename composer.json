@@ -1,8 +1,8 @@
 {
-	"name": "keygenqt/yii2-zclip-btn",
+	"name": "keygenqt/yii2-last-page",
 	"description": "Widget from form image ajax load.",
 	"keywords": ["yii2", "extension", "widget", "jquery"],
-	"homepage": "https://github.com/keygenqt/yii2-zclip-btn",
+	"homepage": "https://github.com/keygenqt/yii2-last-page",
 	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"version":"0.5.0",
