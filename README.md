@@ -12,13 +12,7 @@ Either add
 ```
 "require": {
     "keygenqt/yii2-last-page": "*"
-},
-"repositories":[
-    {
-        "type": "git",
-        "url": "https://github.com/keygenqt/yii2-last-page.git"
-    }
-]
+}
 ```
 
 of your `composer.json` file.
