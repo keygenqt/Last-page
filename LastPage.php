@@ -23,7 +23,7 @@ class LastPage extends Controller
                     }
                 } else {
                     Yii::$app->session->set('user.new-url', $request->getUrl());
-                    Yii::$app->session->set('user.url', '/');
+                    Yii::$app->session->set('user.url', Url::base());
                 }
                 Yii::$app->user->setReturnUrl(Yii::$app->session->get('user.url'));
             }
