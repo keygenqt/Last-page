@@ -4,6 +4,7 @@ namespace keygenqt\lastPage;
 
 use Yii;
 use yii\web\Controller;
+use yii\helpers\Url;
 
 /**
  * LastPage controller
@@ -23,7 +24,7 @@ class LastPage extends Controller
                     }
                 } else {
                     Yii::$app->session->set('user.new-url', $request->getUrl());
-                    Yii::$app->session->set('user.url', Url::base());
+                    Yii::$app->session->set('user.url', (Url::base() ? Url::base() : '/'));
                 }
                 Yii::$app->user->setReturnUrl(Yii::$app->session->get('user.url'));
             }
